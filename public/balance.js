@@ -1,3 +1,5 @@
+// todo: change context to connect to back end
+
 function Balance(){
   const [show, setShow]     = React.useState(true);
   const [status, setStatus] = React.useState('');  

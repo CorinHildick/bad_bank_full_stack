@@ -1,3 +1,6 @@
+// todo: automatically log in when you have created an account
+// long term todo: allow administrative accounts to create additional accoutns
+
 function CreateAccount(){
   const [show, setShow]     = React.useState(true);
   const [status, setStatus] = React.useState('');

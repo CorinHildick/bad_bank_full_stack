@@ -1,3 +1,5 @@
+// todo: change context to pull from back end.
+
 function Withdraw(){
   const [show, setShow]     = React.useState(true);
   const [status, setStatus] = React.useState('');  

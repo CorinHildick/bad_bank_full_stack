@@ -3,6 +3,8 @@ const Link        = ReactRouterDOM.Link;
 const HashRouter  = ReactRouterDOM.HashRouter;
 const UserContext = React.createContext(null);
 
+// todo: create contect for current account
+
 function Card(props){
   function classes(){
     const bg  = props.bgcolor ? ' bg-' + props.bgcolor : ' ';

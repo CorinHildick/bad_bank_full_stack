@@ -3,6 +3,7 @@ const url 			= "mongodb://localhost:27017";
 let db 				= null;
 
 // todo: token authentication?
+// todo: add function for current account, instead of all accounts. Require admin role to fetch all accounts.
 
 const client = new MongoClient(url, {});
 

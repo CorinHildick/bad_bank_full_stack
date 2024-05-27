@@ -1,3 +1,5 @@
+// todo: pull from back end instead of context
+
 function Deposit(){
   const [show, setShow]     = React.useState(true);
   const [status, setStatus] = React.useState('');  

@@ -3,6 +3,8 @@ var app 		= express();
 var cors		= require('cors');
 var dal 	 	= require('./dal.js');
 
+// todo: add route for current account's data
+
 app.use(express.static('public'));
 app.use(cors());
 

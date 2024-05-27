@@ -1,3 +1,5 @@
+// todo: authentication and limitations
+
 function AllData(){
 	const [data, setData] = React.useState('');
 
